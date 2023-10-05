@@ -1,0 +1,58 @@
+@use '../../mixins/typography';
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+.home{
+    &__container{
+        margin: 0;
+        padding: 0;
+        padding-top: 15%;
+        background-image: url('../../../public/Bitmap.png');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-position: center; 
+        color: white;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    &__article{
+        width: 50%;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        &--circle{
+            color: black;
+            border-radius: 50%;
+            background-color: white;
+            margin-top: 30%;
+            padding-top: 23%;
+            padding-bottom: 23%;
+            padding-right: 12%;
+            padding-left: 12%;
+            @include typography.nameCircle;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        &--top{
+            margin: 0;
+            padding-bottom: 2%;
+            @include typography.titleTopHome;
+        }
+        &--principal{
+            margin: 0;
+            padding-bottom: 5%;
+            @include typography.titlePrincipalHome;
+        }
+        &--bottom{
+            margin: 0;
+            padding-right: 10%;
+            @include typography.titleBottomHome;
+        }
+    }
+}
+
+.center {
+    align-items: center;
+}

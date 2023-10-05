@@ -1,0 +1,46 @@
+@use '../mixins/typography';
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+
+.NavBar{
+    &__container{
+        top: 5%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        div{
+            width: 33%;
+            height: 1px;
+            flex-shrink: 0;
+            opacity: 0.2515;
+            background: #FFF;
+        }
+        img{
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+    &__ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(40.774227142333984px);
+        width: 50%;
+        height: 96px;
+        flex-shrink: 0;
+    }
+    &__li{
+        list-style: none;
+    }
+    &__link{
+        text-decoration: none;
+        @include typography.nameNavBar;
+        display: flex;
+        align-items: center;
+        p {
+            padding-right: 10%;
+            @include typography.numberNavBar;
+        }
+    }
+}

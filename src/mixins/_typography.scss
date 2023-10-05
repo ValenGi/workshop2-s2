@@ -1,0 +1,57 @@
+@mixin nameCircle{
+    color: #0B0D17;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+@mixin titleTopHome {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+}
+
+@mixin titlePrincipalHome{
+    color: #FFF;
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin titleBottomHome{
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+@mixin nameNavBar{
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}
+
+@mixin numberNavBar{
+    color: #FFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.7px;
+}

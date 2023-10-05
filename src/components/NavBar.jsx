@@ -1,22 +1,25 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import './NavBar.scss';
 
 const NavBar = () => {
     return (
         <>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
+            <nav className='NavBar__container'>
+                <img src="/public/icon-top.png" alt="" />
+                <div/>
+                <ul className='NavBar__ul'>
+                    <li className='NavBar__li'>
+                        <Link className='NavBar__link' to="/"><p>01</p> HOME</Link>
                     </li>
-                    <li>
-                        <Link to="/destination">Destination</Link>
+                    <li className='NavBar__li'>
+                        <Link className='NavBar__link' to="/destination"><p>02</p> DESTINATION</Link>
                     </li>
-                    <li>
-                        <Link to="/crew">Crew</Link>
+                    <li className='NavBar__li'>
+                        <Link className='NavBar__link' to="/crew"><p>03</p> CREW</Link>
                     </li>
-                    <li>
-                        <Link to="/technology">Technology</Link>
+                    <li className='NavBar__li'>
+                        <Link className='NavBar__link' to="/technology"><p>04</p> TECHNOLOGY</Link>
                     </li>
                 </ul>
             </nav>
