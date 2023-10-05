@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;200;300;400;500&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 .crewBG{
     margin: 0;
     width: 100%;
@@ -29,17 +31,115 @@
   }
   .text-container{
     width: 50%;
+    font-size: 15px;
+    line-break: auto;
+    width: 50%;
+    margin: 0 auto; /* Centra el contenedor de texto horizontalmente */
+    max-width: 600px; 
+
+    & h2{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    }
+
+    & h1{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 56px;
+        line-height: 64px;
+        text-transform: uppercase;
+        margin-top: 15px;
+        color: #FFFFFF;
+    }
+
+    & p{
+        margin-top: 27px;
+        font-family: Barlow;    
+        font-size: 18px;
+        line-height: 32px;
+        color: #D0D6F9;
+        height: 150px;
+    }
   }
   .image-container{
     width: 50%;
   }
   
- #imgAjuste{
-    width: 40%;
- }
+ #imgAjuste1{
+    width: 39%;
+    margin-left: 20vw; 
 
+ }
+ #imgAjuste2{
+    width: 36%;
+    margin-left: 20vw; 
+ }
+ #imgAjuste3{
+    width: 45%;
+    margin-left: 15vw; 
+ }
+ #imgAjuste4{
+   
+    margin-left: 10vw; 
+ }
+ 
+ 
+
+ .slick-dots-custom {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    position: absolute;
+    top: 35vw;  
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important; /* Cambia la dirección a horizontal */
+   
+    
+    li {
+        font-size: 0;
+        margin-right: 2vw;
+      button {
+        width: 10px;
+        height: 12px;
+        border-radius: 50px;
+        background-color: gray; 
+        border: none;
+        color: transparent;
+        cursor: pointer;
+      }
+
+      &.slick-active button {
+        background-color: white; 
+      }
   
+      &:hover button {
+        background-color: lightgrey; 
+      }
+    }
+  }
   
+  .crew-title{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    font-family: 'Barlow Condensed', sans-serif;
+    & span {
+        font-weight: 700;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.25;
+    }
+  }
   @media screen and (max-width: 800px) {
     .crew-carousel {
       background: url("../../../public/background-crew-tablet.jpg");
