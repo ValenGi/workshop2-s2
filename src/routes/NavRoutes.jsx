@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import Home from '../pages/home/Home';
 import Destination from '../pages/Destination';
-import Crew from '../pages/Crew';
+import Crew from '../pages/crew/Crew';
 import Technology from '../pages/Technology';
 
 export const NavRoutes = () => {
