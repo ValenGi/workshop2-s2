@@ -34,7 +34,6 @@
     font-size: 15px;
     line-break: auto;
     width: 50%;
-    margin: 0 auto; /* Centra el contenedor de texto horizontalmente */
     max-width: 600px; 
 
     & h2{
@@ -101,7 +100,7 @@
     top: 35vw;  
     width: 100%;
     display: flex !important;
-    flex-direction: row !important; /* Cambia la dirección a horizontal */
+    flex-direction: row ;
    
     
     li {
