@@ -2,7 +2,7 @@ import React from 'react'
 
 const Technology = () => {
   return (
-    <div>Technology</div>
+    <div style={{ backgroundColor: 'black', height: '100vh' }}>Technology</div>
   )
 }
 

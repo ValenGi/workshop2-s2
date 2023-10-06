@@ -2,7 +2,7 @@ import React from 'react'
 
 const Destination = () => {
     return (
-        <div>Destination</div>
+        <div style={{ backgroundColor: 'black', height: '100vh' }}>Destination</div>
     )
 }
 

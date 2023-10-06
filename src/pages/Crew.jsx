@@ -2,7 +2,7 @@ import React from 'react'
 
 const Crew = () => {
     return (
-        <div>Crew</div>
+        <div style={{ backgroundColor: 'black', height: '100vh'}}>Crew</div>
     )
 }
 

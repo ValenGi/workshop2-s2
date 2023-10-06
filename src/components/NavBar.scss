@@ -42,5 +42,13 @@
             padding-right: 10%;
             @include typography.numberNavBar;
         }
+        &:hover{
+            padding-bottom: 5%;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5021);
+        }
     }
+}
+
+.active{
+    border-bottom: 2px solid #FFFFFF;
 }
