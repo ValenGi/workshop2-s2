@@ -1,55 +1,70 @@
 @mixin nameCircle{
     color: #0B0D17;
     font-family: 'Bellefair', serif;
-    font-size: 32px;
+    font-size: 210%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2px;
+    @media screen and (max-width: 599px)  {
+        font-size: 150%;
+    }
 }
 
 @mixin titleTopHome {
     color: #D0D6F9;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 28px;
+    font-size: 160%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 4.725px;
+    @media screen and (max-width: 599px)  {
+        font-size: 100%;
+    }
 }
 
 @mixin titlePrincipalHome{
     color: #FFF;
     font-family: 'Bellefair', serif;
-    font-size: 150px;
+    font-size: 900%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    @media screen and (max-width: 599px)  {
+        font-size: 700%;
+    }
 }
 
 @mixin titleBottomHome{
     color: #D0D6F9;
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    font-size: 115%;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    @media screen and (max-width: 599px)  {
+        font-size: 100%;
+    }
 }
 
 @mixin nameNavBar{
     color: #FFF;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 2.7px;
+    @media (min-width: 600px) and (max-width: 820px)  {
+        font-size: 70%;
+    }
 }
 
 @mixin numberNavBar{
     color: #FFF;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 16px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
