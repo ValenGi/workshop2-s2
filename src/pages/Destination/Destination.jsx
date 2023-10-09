@@ -2,17 +2,16 @@ import { useState } from "react";
 import "./Destination.scss";
 
 // Importa las imágenes
-import imgMoon from "../../Img/Moon.png";
-import imgMars from "../../Img/Mars.png";
-import imgEuropa from "../../Img/Europa.png";
-import imgJupiter from "../../Img/Jupiter.png";
+import imgMoon from "../../../public/Moon.png";
+import imgMars from "../../../public/Mars.png";
+import imgEuropa from "../../../public/Europa.png";
+import imgJupiter from "../../../public/Jupiter.png";
 
 const destinations = [
   {
     name: "Moon",
     btnName: "Moon",
     images: imgMoon,
-
     description:
       "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
     distance: "384,400 km",
@@ -52,7 +51,6 @@ const Destination = () => {
 
   return (
     <div className="Destination">
-      <section className="content">
         <div className="left">
           <h1 className="title-img">
             <span className="title-modified">01</span>
@@ -94,7 +92,7 @@ const Destination = () => {
             </div>
           </div>
         </div>
-      </section>
+   
     </div>
   );
 };

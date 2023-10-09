@@ -6,20 +6,17 @@
   width: 100%;
   min-height: 100vh;
   height: 100%;
-  background: url("../../Img/background-destination-desktop.jpg");
+  background: url("../../../public/background-destination-desktop.jpg");
   background-size: cover;
   color: white;
-}
-
-.content {
-  width: 100%;
-  height: 70%;
   display: flex;
   flex-direction: row;
-  margin-top: 116px;
 }
 
+
+
 .left {
+ margin-top: 15%;
   text-align: left;
   width: 50%;
 }
@@ -57,7 +54,7 @@
   flex-direction: column;
   position: relative;
   margin: 0 auto;
-  margin-top: 98px;
+  margin-top: 20%;
   width: 450px;
 }
 
@@ -150,17 +147,16 @@ hr {
 
 @media screen and (max-width: 1226px) {
   .Destination {
-    background: url("../../Img/background-destination-tablet.jpg");
+    background: url("../../../public/background-destination-tablet.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-
-  .content {
     flex-direction: column;
     position: static;
     padding: 40px 0 62px;
     margin-top: 0;
   }
+
+
 
   .left {
     text-align: center;
@@ -228,16 +224,15 @@ hr {
 
 @media screen and (max-width: 767px) {
   .Destination {
-    background: url("../../Img/background-destination-mobile.jpg");
+    background: url("../../../public/background-destination-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 58px;
-  }
-
-  .content {
     padding-top: 24px;
     padding-bottom: 0;
   }
+
+ 
 
   hr {
     margin-bottom: 32px;
