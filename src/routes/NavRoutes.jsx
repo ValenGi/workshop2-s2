@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar';
 import Home from '../pages/home/Home';
 import Destination from '../pages/Destination';
 import Crew from '../pages/crew/Crew';
-import Technology from '../pages/Technology';
+import Technology from '../pages/technology/Technology';
 
 export const NavRoutes = () => {
   return (
