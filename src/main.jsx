@@ -6,6 +6,6 @@ import './main.scss';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <NavRoutes />
+    <NavRoutes /> 
   </BrowserRouter>
 );

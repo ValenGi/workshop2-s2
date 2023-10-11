@@ -10,7 +10,7 @@ export const NavRoutes = () => {
   return (
     <>
       <Routes>
-        <Route element={<NavBar />}>
+        <Route path="/workshop2-s2" element={<NavBar />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="destination" element={<Destination />} />
