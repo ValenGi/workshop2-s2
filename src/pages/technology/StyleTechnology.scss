@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;200;300;400;500&family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -59,7 +59,7 @@ html, body {
 	mix-blend-mode: normal;
 	border: 1px solid #FFFFFF;
 	box-sizing: border-box;
-	font-family: Bellefair;
+	font-family: 'Bellefair', serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;
@@ -85,7 +85,7 @@ html, body {
 	width: 470px;
 }
 .technology-terminology {
-	font-family: Barlow Condensed;
+	font-family: 'Barlow Condensed', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -94,7 +94,7 @@ html, body {
 	color: #D0D6F9;
 }
 .technology-name {
-	font-family: Bellefair;
+	font-family: 'Bellefair', serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 56px;
@@ -106,7 +106,7 @@ html, body {
 	width: 470px;
 }
 .technology-desc {
-	font-family: Barlow;
+	font-family: 'Barlow', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -165,7 +165,7 @@ html, body {
         margin: 44px auto auto;
     }
     .technology-terminology {
-        font-family: Barlow;
+        font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -174,7 +174,7 @@ html, body {
         color: #D0D6F9;
     }
     .technology-name {
-        font-family: Bellefair;
+        font-family: 'Bellefair', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 40px;
@@ -186,7 +186,7 @@ html, body {
     }
     .technology-desc {
         margin-top: 16px;
-        font-family: Barlow;
+        font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -218,7 +218,7 @@ html, body {
         display: block;
         position: static;
         text-align: center;
-        font-family: Barlow Condensed;
+        font-family: 'Barlow Condensed', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -235,7 +235,7 @@ html, body {
     }
 
     .technology-terminology {
-        font-family: Barlow Condensed;
+        font-family: 'Barlow Condensed', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -247,7 +247,7 @@ html, body {
     .technology-name {
         padding-right: 10px;
         width: 100%;
-        font-family: Bellefair;
+        font-family: 'Bellefair', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
@@ -259,7 +259,7 @@ html, body {
     .technology-desc {
         padding-left: 10px;
         width: 87.2vw;
-        font-family: Barlow;
+        font-family: 'Barlow', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
@@ -284,7 +284,7 @@ html, body {
     .technology-button {
         width: 40px;
         height: 40px;
-        font-family: Bellefair;
+        font-family: 'Bellefair', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
