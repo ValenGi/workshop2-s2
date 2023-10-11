@@ -10,12 +10,12 @@ export const NavRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/workshop2-s2" element={<NavBar />}>
+        <Route path="/workshop2-s2/" element={<NavBar />}>
           <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="destination" element={<Destination />} />
-          <Route path="crew" element={<Crew />} />
-          <Route path="technology" element={<Technology />} />
+          <Route path="/workshop2-s2/home" element={<Home />} />
+          <Route path="/workshop2-s2/destination" element={<Destination />} />
+          <Route path="/workshop2-s2/crew" element={<Crew />} />
+          <Route path="/workshop2-s2/technology" element={<Technology />} />
         </Route>
       </Routes>
     </>

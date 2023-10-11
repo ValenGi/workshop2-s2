@@ -18,16 +18,16 @@ const NavBar = () => {
                 <div/>
                 <ul className='NavBar__ul'>
                     <li className='NavBar__li'>
-                        <Link className={`NavBar__link ${location.pathname === '/' || location.pathname === '/home' ? 'active' : ''}`} to="/"><p>01</p> HOME</Link>
+                        <Link className={`NavBar__link ${location.pathname === '/' || location.pathname === '/home' ? 'active' : ''}`} to="/workshop2-s2/"><p>01</p> HOME</Link>
                     </li>
                     <li className='NavBar__li'>
-                        <Link className={`NavBar__link ${location.pathname === '/destination' ? 'active' : ''}`} to="/destination"><p>02</p> DESTINATION</Link>
+                        <Link className={`NavBar__link ${location.pathname === '/destination' ? 'active' : ''}`} to="/workshop2-s2/destination"><p>02</p> DESTINATION</Link>
                     </li>
                     <li className='NavBar__li'>
-                        <Link className={`NavBar__link ${location.pathname === '/crew' ? 'active' : ''}`} to="/crew"><p>03</p> CREW</Link>
+                        <Link className={`NavBar__link ${location.pathname === '/crew' ? 'active' : ''}`} to="/workshop2-s2/crew"><p>03</p> CREW</Link>
                     </li>
                     <li className='NavBar__li'>
-                        <Link className={`NavBar__link ${location.pathname === '/technology' ? 'active' : ''}`} to="/technology"><p>04</p> TECHNOLOGY</Link>
+                        <Link className={`NavBar__link ${location.pathname === '/technology' ? 'active' : ''}`} to="/workshop2-s2/technology"><p>04</p> TECHNOLOGY</Link>
                     </li>
                 </ul>
                 <img className='NavBar__img' onClick={openClick} src="/public/Group.png" alt="" />
