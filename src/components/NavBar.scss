@@ -110,4 +110,7 @@
 
 .active{
     border-bottom: 2px solid #FFFFFF;
+    @media screen and (max-width: 599px)  {
+        border-bottom: none;
+    }
 }
