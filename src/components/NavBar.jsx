@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 import './NavBar.scss';
+import iconTop from '../../public/icon-top.png';
+import group from '../..//public/Group.png';
 
 const NavBar = () => {
     const location = useLocation();
@@ -14,7 +16,7 @@ const NavBar = () => {
     return (
         <>
             <nav className='NavBar__container'>
-                <img src="/public/icon-top.png" alt="" />
+                <img src={iconTop} alt="" />
                 <div/>
                 <ul className='NavBar__ul'>
                     <li className='NavBar__li'>
@@ -30,7 +32,7 @@ const NavBar = () => {
                         <Link className={`NavBar__link ${location.pathname === '/technology' ? 'active' : ''}`} to="/workshop2-s2/technology"><p>04</p> TECHNOLOGY</Link>
                     </li>
                 </ul>
-                <img className='NavBar__img' onClick={openClick} src="/public/Group.png" alt="" />
+                <img className='NavBar__img' onClick={openClick} src={group} alt="" />
             </nav>
             {mostrarOtherComponent && <OtherComponent close={closeClick}/>}
             <Outlet />
